@@ -1,3 +1,17 @@
+Fork
+====
+
+Add ability to use any http verb and `xhr.withCredentials` option for signingUrl request.
+
+```jsx
+<ReactS3Uploader
+  ...
+  signingUrlMethod="POST"               // default "GET"
+  signingUrlWithCredentials={ true }    // in case when authentication needed
+  ...
+/>
+```
+
 react-s3-uploader
 ===========================
 
